@@ -1,0 +1,7 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cat="http://www.catastro.meh.es/">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <cat:Provincia>[PROVINCIA]</cat:Provincia>
+        <cat:Municipio>[MUNICIPIO]</cat:Municipio>
+    </soapenv:Body>
+</soapenv:Envelope>

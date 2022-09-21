@@ -1,0 +1,24 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Body>
+        <Municipios xmlns="http://www.catastro.meh.es/">
+            <consulta_municipiero>
+                <control>
+                    <cumun>1</cumun>
+                </control>
+                <municipiero>
+                    <muni>
+                        <nm>VIGO</nm>
+                        <locat>
+                            <cd>54</cd>
+                            <cmc>57</cmc>
+                        </locat>
+                        <loine>
+                            <cp>36</cp>
+                            <cm>57</cm>
+                        </loine>
+                    </muni>
+                </municipiero>
+            </consulta_municipiero>
+        </Municipios>
+    </soap:Body>
+</soap:Envelope>
